@@ -97,9 +97,10 @@
     padding: 10px;
   }
   
+  a{color: #b19cd9;}
   a:link{color: #b19cd9;}
-  a:hover{color: #b19cd9;}
-  a:visited{color: lightcyan;}
+  a:hover{color: #417C81;}
+  a:visited{color: rgb(176, 253, 253);}
   a:active{font-size: 15px;}
   
   /* Groups & Items (Mobile First) */
