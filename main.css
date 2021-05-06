@@ -107,16 +107,22 @@
   .group {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   
   .item {
     flex: 1;
-    margin: 10px;
+    margin: 15px;
   }
   
   .item-double {
     flex: 2;
     margin: 10px;
+  }
+
+  .me {
+    max-width: 300px;
   }
   
   /* Form Design and Styling */
@@ -137,6 +143,17 @@
   
   form textarea {
     height: 100px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
   }
   
   @media all and (min-width: 900px){
